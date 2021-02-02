@@ -1,0 +1,95 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+	position: absolute;
+	width: 444px;
+	height: 48px;
+	left: 498px;
+	top: 244px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 48px;
+
+	text-align: center;
+	color: #333333;
+}
+body {
+	position: absolute;
+	width: 1440px;
+	height: 616px;
+	left: 0px;
+	background: #F2F8FB;
+}
+.card {
+	width: 320px;
+	position: absolute;
+	width: 322.4px;
+	height: 414px;
+	left: 30px;
+	top: 332px;
+
+	background: #FFFFFF;
+	border: 1px solid #CFDCE3;
+	box-sizing: border-box;
+}
+.card-2 {
+	position: absolute;
+	width: 322.4px;
+	height: 414px;
+	left: 381px;
+	top: 332px;
+	background: #FFFFFF;
+	border: 1px solid #CFDCE3;
+	box-sizing: border-box;
+}
+.card-3 {
+	position: absolute;
+	width: 322.4px;
+	height: 414px;
+	left: 732px;
+	top: 332px;
+	background: #FFFFFF;
+	border: 1px solid #CFDCE3;
+	box-sizing: border-box;
+}
+.card-4 {
+	position: absolute;
+	width: 322.4px;
+	height: 414px;
+	left: 1083px;
+	top: 332px;
+	background: #FFFFFF;
+	border: 1px solid #CFDCE3;
+	box-sizing: border-box;
+}
+.card-content {
+	 padding: 0 20px;
+	}
+.card-content dl {
+	 display: grid;
+	 grid-template-columns: repeat(3, 1fr);
+	 grid-column-gap: 20px;
+	 margin-top: 10px;
+	 padding-top: 0;
+	 align-items: center;
+}
+.card-content dd {
+	 grid-row: 1 / 2;
+	 margin: 0;
+	}
+dd {
+	font-size: 1.5em;
+}
+.color-grey {
+	color: #333333;
+	opacity: 0.5;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #CFDCE3;
+}
+h2 {
+	font-size: 1.4em;
+}
